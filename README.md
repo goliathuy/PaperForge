@@ -1,6 +1,7 @@
-# Markdown to DOCX Conversion Tools
+# PaperForge 
+Markdown to DOCX ToolsKit
 
-A collection of tools for converting Markdown documents to Word (DOCX) format with advanced validation and testing capabilities.
+A collection of tools for converting Markdown documents into polished Word documents with advanced validation and testing capabilities.
 
 ## Overview
 
@@ -46,8 +47,8 @@ These tools are useful for:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/md-to-docx.git
-   cd md-to-docx
+   git clone https://github.com/goliathuy/PaperForge.git  
+   cd PaperForge
    ```
 
 2. Install dependencies:
@@ -59,8 +60,16 @@ These tools are useful for:
 
 ### Generate a Word document from Markdown
 
+To generate a Word document from a Markdown file, use the following command:
+
 ```bash
 python scripts/generate_word_from_md.py <input_md_file> <output_docx_file>
+```
+
+For example:
+
+```bash
+python scripts/generate_word_from_md.py examples/sample.md output.docx
 ```
 
 ### Test the formatting of a Word document
